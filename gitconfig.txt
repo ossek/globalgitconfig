@@ -1,12 +1,21 @@
-[alias]
-  co = checkout
-  cm = commit -m
-  ci = commit
-  st = status
-  br = branch
-  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
-  type = cat-file -t
-  dump = cat-file -p
+[alias]
+
+  co = checkout
+
+  cm = commit -m
+
+  ci = commit
+
+  st = status
+
+  br = branch
+
+  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+
+  type = cat-file -t
+
+  dump = cat-file -p
+
   dt = difftool
   mt = mergetool
   au = add -u
@@ -22,5 +31,5 @@
 [mergetool "bc3"]
 	path = c:/Program Files (x86)/Beyond Compare 4/bcomp.exe
 [user]
-	name = nick beacom
-	email = nick.beacom@pioneer.com
+	name = ossek
+	email = ossek.5.sherlocken@spamgourmet.com
