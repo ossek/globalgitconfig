@@ -1,0 +1,26 @@
+[alias]
+  co = checkout
+  cm = commit -m
+  ci = commit
+  st = status
+  br = branch
+  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
+  dt = difftool
+  mt = mergetool
+  au = add -u
+  puo = push origin
+  plo = pull origin
+
+[diff]
+	tool = bc3
+[difftool "bc3"]
+	path = c:/Program Files (x86)/Beyond Compare 4/bcomp.exe
+[merge]
+	tool = bc3
+[mergetool "bc3"]
+	path = c:/Program Files (x86)/Beyond Compare 4/bcomp.exe
+[user]
+	name = nick beacom
+	email = nick.beacom@pioneer.com
